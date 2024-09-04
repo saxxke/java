@@ -3,7 +3,7 @@ public class evendigits {
     public static void main(String[] args) {
         int[] nums = {12,345,2,6,7896,48,25};
         System.out.println(findNumbers(nums));
-        System.out.println(digits2(-345678));
+        System.out.println(digits2(-345678)); // using shortcut
     }
     static int findNumbers(int[] nums) {
         int count = 0;
@@ -26,7 +26,7 @@ public class evendigits {
          */
         return numberOfDigits % 2 == 0;
     }
-
+  //for counting digits shortcut method
     static int digits2(int num) {
         if (num < 0) {
             num = num * -1;
