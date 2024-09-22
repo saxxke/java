@@ -1,13 +1,15 @@
-public class p2 {
+public class p21 {
     public static void main(String[] args) {
-        pattern(4);
+        pattern(5);
     }
 
     static void pattern(int n) {
+        int number = 1;
         for (int row = 1; row <= n; row++) {
             // for every row, run the col
             for (int col = 1; col <= row; col++) {
-                System.out.print("* ");
+                System.out.print(number + " ");
+                number++;
             }
             // when one row is printed, we need to add a newline
             System.out.println();

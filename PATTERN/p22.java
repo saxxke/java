@@ -1,13 +1,17 @@
-public class p2 {
+public class p22 {
     public static void main(String[] args) {
-        pattern(4);
+        pattern(5);
     }
 
     static void pattern(int n) {
         for (int row = 1; row <= n; row++) {
             // for every row, run the col
             for (int col = 1; col <= row; col++) {
-                System.out.print("* ");
+                if ((row + col) % 2 == 0) {
+                    System.out.print("1 ");
+                } else {
+                    System.out.print("0 ");
+                }
             }
             // when one row is printed, we need to add a newline
             System.out.println();
