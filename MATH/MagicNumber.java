@@ -1,7 +1,6 @@
 public class MagicNumber {
     public static void main(String[] args) {
         int n = 5;
-
         int ans = 0;
         int base = 5;
 
