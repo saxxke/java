@@ -40,5 +40,7 @@ public class CWH_14_StringMethods {
     
         System.out.println(name.equals("Kingshuk"));
         System.out.println(name.equalsIgnoreCase("kinGsHuk"));
+
+        System.out.println(name.contains("ing"));
     }
 }
